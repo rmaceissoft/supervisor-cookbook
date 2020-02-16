@@ -8,6 +8,7 @@ action :create do
     provider :system
     version '2'
     pip_version '18.0'
+    virtualenv_version '16.7.9'
   end
 
   python_package 'supervisor' do
